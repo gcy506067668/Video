@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center|left"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#e7e9e8">
+        <ImageView
+            android:src="@mipmap/mypicture"
+            android:layout_marginLeft="20dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <TextView
+            android:gravity="center|left"
+            android:text="我的信息"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#e7e9e8"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/ic_settings_black_24dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:background="#e7e9e8"
+            android:textSize="18sp"
+            android:text="设 置"
+            android:paddingLeft="15dp"
+            android:gravity="center|left"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#e7e9e8"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/ic_photo_size_select_actual_black_24dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:background="#e7e9e8"
+            android:textSize="18sp"
+            android:text="相 册"
+            android:paddingLeft="15dp"
+            android:gravity="center|left"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,161 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="cn.uicp.letmesleep.video.AboutUsActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/fullscreen_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/aboutus_teacher"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@mipmap/tust"
+                        android:layout_marginLeft="45dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp" />
+                    <TextView
+                        android:layout_marginRight="45dp"
+                        android:textSize="24sp"
+                        android:text="天津科技大学"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:src="@mipmap/zyy"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp" />
+                <TextView
+                    android:text="一、导师情况简介"
+                    android:paddingLeft="8dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal|bold" />
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:textSize="14sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="        张翼英:博士(后)、教授级高工，天津科技大学“海河学者”特聘教授。韩国高丽大学博士（政府公派）、北京邮电大学与国家电网公司信息通信分公司联合博士后。主要研究方向为物联网技术、信息安全、智能电网、（电力）大数据、网络安全性可靠性、网络追踪以及RFID技术等。曾主持或负责韩国政府BK21项目、博士后面上基金、973项目、863项目、国家重大科技专项等国家级、省部级科研、教研项目30余项。发表SCI、EI索引等专业论文50多篇。担任国际会议如MMASN2010、IWCMC2010等TPC和IET、JIT等国际期刊审稿人。同时，与清华大学出版社、高等教育出版社、IGIPress等合作，主编或副主编包括国家重点图书、规划教材等20多部，如《物联网导论》、《物联网与智能电网》等，内容涵盖物联网、智能电网以及程序设计等。主持或参加电动汽车运营管理系统、电力信息设备仿真系统、计量资产全寿命周期等多个重大工程项目。并申请或获得多个专利或软件著作权。多次获得省级、校局级教学及科研奖励。是中国计算机协会（CCF）会员，ACM会员，中国电机工程学会会员，国家信息安全注册专家，国家电网公司科技评审专家。同时，是省级精品课的主讲人。留学期间，创建在韩博士生联谊会和在韩公派留人员联谊会并任会长。多次受到党和国家领导人接见和勉励。"/>
+                <TextView
+                    android:text="二、近年科研项目"
+                    android:paddingLeft="8dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal|bold" />
+                <TextView
+                    android:text="中国博士后科学基金，无线传感器多层次网络模型下的动态密钥管理机制研究（5万，2012年，主持）
+国家科技重大专项，“信息汇聚传感器网络综合测试与验证评估环境（2011ZX03005-002）”，子课题“智能电网应用测试平台研究与开发”	（906万，2011年，排名第2，专责）
+973计划项目，“物联网的基础理论与实践研究（2011CB302900）”子课题6“物联网验证与应用示范研究（2011CB302906）”（210万，2011年，排名第2，专责）
+863计划课题，“电网信息可视化及互动化技术研究（2012AA050804）”子课题“基于物联网的智能充换电服务网络感知技术研究”（280万，2012年，负责人）
+辽宁省博士科研启动基金，无线传感器网络中轻量级动态安全协议研究（4万，2010年，负责人）
+国家电网公司科技项目，“电力通信接入网关键技术研究及应用”项目课题5“异频组网下的无线宽带接入系统应用研究”（2260万，2013年，技术骨干，排名5）
+科技部中韩联合项目，基于物联网技术的智能电网基础信息的标识采集技术研究（100万，2013年，排名3）
+国网信息通信有限公司科技项目，面向北京灾备中心数据采集及应用的电网大数据分析及可视化技术研究（50万，2012年，排名3）
+公安部信息网络安全重点实验室开放课题，基于动态路径分析的二进制可执行程序漏洞挖掘技术研究（2万，2013年，排名3）
+国家科技重大专项，广域覆盖低成本宽带接入组网技术与应用示范网络开发（2012ZX03004001-002）（431万，2012年）
+国家电网公司科技项目，基于物联网的电动汽车智能充换电网络研究与应用（NO.DG17201100067）（1137万，2011年，排名6）
+12.	国家电网公司科技项目，电动汽车智能充换电服务网络运营管理系统（2000万，2011年，排名6）
+国网信息通信有限公司科技项目，物联网在智能输电线路中应用的研究（100万，2012年，主持人）
+央企电动车产业联盟共性技术项目，电动车充换电服务配套体系技术研究（1870万，2011年，排名5，申请人）"
+                    android:layout_marginTop="8dp"
+                    android:textSize="14sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="三、所在学院、研究室名称"
+                    android:paddingLeft="8dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal|bold" />
+                <TextView
+                    android:text="计算机科学与信息工程学院，物联网工程教研室"
+                    android:layout_marginTop="8dp"
+                    android:textSize="14sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="四、联系方式 "
+                    android:paddingLeft="8dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal|bold"  />
+                <TextView
+                    android:text="办公地点：12号楼313室
+电话： 022-60272265
+通讯地址（邮编）：中国天津市河西区大沽南路1038号，天津科技大学 计算机学院（300222）
+E-MAIL：yiyingzhang@tust.edu.cn"
+                    android:layout_marginTop="8dp"
+                    android:textSize="14sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/about_us"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:background="@android:color/holo_blue_dark"
+                android:id="@+id/dummy_button"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="返    回" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
